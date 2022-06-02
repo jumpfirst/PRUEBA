@@ -440,10 +440,44 @@ a:hover, a:active{
 
 }
 
-.footer{
-    display: grid;
-    height: 100px;
+
+footer{
+    margin-top: 00px;
+    padding-top: 40px;
+    padding-left: 390px;
+    height: 150px;
     max-width: 100%;
-    background-color: #00dc64;
+    background-color: #000;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
 }
 
+.fa-brands, li.pie, .pie{
+    color: #00dc64;
+    padding-left: -0px;
+    list-style-type: none;
+    list-style: none;
+
+}
+
+.pie p{
+    margin-left: -200px;
+    font-size: smaller;
+    color: #b9b9b9;
+    display: grid;
+    padding-left: -10px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 20px;
+    max-width: 100%;
+}
+
+li, ul{
+    list-style-type: none;
+    display: inline;
+    padding-top: 0.3vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-left: 3vw;
+}
